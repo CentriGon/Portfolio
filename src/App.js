@@ -42,6 +42,27 @@ function App() {
         <Project projectName="Gov School Chem" projectInfo="Full stack web app that allows two users to connect to custom coded remote server that keeps them connected and serves questions" SRC={require("./Images/ChemQuizIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/websocketIcon.png"), require("./Images/reactIcon.png") ]}/>
         <Project projectName="Carvanah" projectInfo="Custom designed website that integrates API Ninja’s car api in order to display data." SRC={require("./Images/CarvanahIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/reactIcon.png") ]}/>
       </div>
+      <h1 className="projects-location"> Contact Me</h1>
+      <form>
+        <div className="form">
+          <div className="name-and-email">
+            <div>
+              <label htmlFor="name"> Name: </label>
+              <input type="text" id="name" name="name"/>
+            </div>
+            <div>
+              <label htmlFor="email"> Email: </label>
+              <input type="text" id="email" name="email"/>
+            </div>
+            </div>
+            <div className="text-area">
+                <label htmlFor="message"> Email: </label>
+                <textarea id="message"/>
+              </div>
+          </div>
+          <button className="send-message"> Send Message </button>
+      </form>
+
     </div>
   );
 }

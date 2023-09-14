@@ -38,7 +38,9 @@ function App() {
       </div>
       <h1 className="projects-location" style={{marginTop: 100 + "px"}}> Projects </h1>
       <div className="projects">
-        <Project projectName="Lead Saint" projectInfo="Full stack web app that accesses a custom coded server that finds b2b leads as well as their emails" SRC={require("./Images/LeadSaintIMG.png")} tools={[require("./Images/JSICon.png"), require("./Images/cssIcon.png")]}/>
+        <Project projectName="Lead Saint" projectInfo="Full stack web app that accesses a custom coded server that finds b2b leads as well as their emails" SRC={require("./Images/LeadSaintIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/reactIcon.png") ]}/>
+        <Project projectName="Gov School Chem" projectInfo="Full stack web app that allows two users to connect to custom coded remote server that keeps them connected and serves questions" SRC={require("./Images/ChemQuizIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/websocketIcon.png"), require("./Images/reactIcon.png") ]}/>
+        <Project projectName="Carvanah" projectInfo="Custom designed website that integrates API Ninja’s car api in order to display data." SRC={require("./Images/CarvanahIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/reactIcon.png") ]}/>
       </div>
     </div>
   );

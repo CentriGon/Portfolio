@@ -123,12 +123,14 @@ body {
   color: red;
   margin: 0px;
   user-select: none;
+  margin-bottom: 30px;
 }
 
 .project {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 120px;
 }
 
 .under-info {
@@ -138,7 +140,7 @@ body {
 }
 
 .name-and-detail {
-  flex: 1;
+  flex: 2;
   text-align: left;
 }
 
@@ -160,10 +162,23 @@ body {
   flex-direction: column;
 }
 
+.tools-list > h3 {
+  align-self: flex-end;
+}
+
+.tool-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  align-self: flex-end;
+}
+
 .project > img {
   width: 80%
 }
 
 .tool-used-icon {
-  height: 50px;
+  height: 34px;
+
 }

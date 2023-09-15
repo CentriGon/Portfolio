@@ -61,10 +61,11 @@ function App() {
         <ToolIcon toolName="Figma" SRC={require("./Images/figmaIcon.png")}/>
       </div>
       <h1 className="projects-location" style={{marginTop: 100 + "px"}}> Projects </h1>
+      <p style={{width: 60 + "%", marginTop: -35 + 'px',  marginBottom: -20 + 'px'}}> Warning: The servers used for these projects are hosted on Render.com, and they spin out of inactivity after 15 minutes. Please give them a few moments to spin back online.</p>
       <div className="projects">
         <Project projectName="Lead Saint" projectInfo="Full stack web app that accesses a custom coded server that finds b2b leads as well as their emails" SRC={require("./Images/LeadSaintIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/reactIcon.png")]} pageLink={"https://saint-leads.web.app/"}/>
         <Project projectName="Gov School Chem" projectInfo="Full stack web app that allows two users to connect to custom coded remote server that keeps them connected and serves questions" SRC={require("./Images/ChemQuizIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/websocketIcon.png"), require("./Images/reactIcon.png") ]}  pageLink={"https://chem-quiz-cf129.web.app/"}/>
-        <Project projectName="Carvanah" projectInfo="Custom designed website that integrates API Ninja’s car api in order to display data." SRC={require("./Images/CarvanahIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/reactIcon.png") ]}  pageLink={"https://saint-leads.web.app/"}/>
+        <Project projectName="Carvanah" projectInfo="Custom designed website that integrates API Ninja’s car api in order to display data." SRC={require("./Images/CarvanahIMG.png")} tools={[require("./Images/htmlIcon.png"), require("./Images/cssIcon.png"),require("./Images/JSICon.png"), require("./Images/figmaIcon.png"),require("./Images/firebaseIcon.png"),require("./Images/reactIcon.png") ]}  pageLink={"https://carvanah-b04f0.web.app/"}/>
       </div>
       <h1 className="projects-location"> Contact Me</h1>
       <form >

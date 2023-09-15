@@ -7,10 +7,12 @@ export const Project = (props) => {
 
 
     return <div className="project">
+        <a href={props.pageLink} target="_blank">
         <img src={props.SRC}/>
+        </a>
         <div className="under-info">
             <div className="name-and-detail">
-                <h1> {props.projectName} </h1>
+                <h1> <a href={props.pageLink} target="_blank">{props.projectName}</a></h1>
                 <p> {props.projectInfo} </p>
             </div>
             <div className="tools-list">

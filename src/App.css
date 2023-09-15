@@ -346,6 +346,33 @@ textarea:focus {
   }
 }
 
+@media (max-width: 700px) {
+  .form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name-and-email > div,
+  .text-area {
+    align-items: center;
+    justify-content: center;
+  }
+
+  label {
+    text-align: center;;
+    width: 100%;
+    font-size: clamp(20px, 7vw, 24px)
+  }
+
+  input {
+    width: 80%;
+  }
+
+  textarea {
+    width: 80%
+  }
+}
+
 @media (max-width: 500px) {
   .tool-icon > h3 {
     font-size: clamp(20px, 5vw, 26px)

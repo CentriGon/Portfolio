@@ -41,7 +41,7 @@ function App() {
     <div className="App">
       <div className="hero-section">
         <div className="hide-element">
-          <h1> Noor Ahmad</h1>
+          <h1> Noor Nile </h1>
         </div>
         <div className="hide-element">
           <h2> Full Stack Web Dev</h2>
@@ -59,6 +59,8 @@ function App() {
         <ToolIcon toolName="Firebase" SRC={require("./Images/firebaseIcon.png")}/>
         <ToolIcon toolName="WebSocket" SRC={require("./Images/websocketIcon.png")}/>
         <ToolIcon toolName="Figma" SRC={require("./Images/figmaIcon.png")}/>
+        <ToolIcon toolName="Express" SRC={require("./Images/expressLogoPng.png")}/>
+        <ToolIcon toolName="Puppeteer" SRC={require("./Images/puppeteerLogo.png")}/>
       </div>
       <h1 className="projects-location" style={{marginTop: 100 + "px"}}> Projects </h1>
       <p style={{width: 60 + "%", marginTop: -35 + 'px',  marginBottom: -20 + 'px'}}> Warning: The servers used for these projects are hosted on Render.com, and they spin out of inactivity after 15 minutes. Please give them a few moments to spin back online.</p>
